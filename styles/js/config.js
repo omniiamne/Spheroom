@@ -45,7 +45,7 @@ charadex.sheet = {
     designTypes: ['All', 'NPC', 'MYO', 'Guest Artist', 'Official Artist'],
     statuses: ['All', 'Not-for-offer', 'Voided', 'Up-for-offer'],
     rarity: ['All', 'Default', 'Common', 'Uncommon', 'Rare', 'Lineage', 'Unknown', 'Non-rarity', 'Red', 'Orange', 'Yellow', 'Green', 'Cyan', 'Blue', 'Purple'],
-    species: ['All', 'Unknown', 'NPC', 'Spheroom', 'Keeper', 'Mymuse'],
+    species: ['All', 'Unknown', 'NPC', 'Spheroom', 'Keeper', 'Mymuse', '1'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Usable', 'Material', 'Artifact', 'Pet'],
     traitTypes: ['All', 'Memories', 'Membrane', 'Head', 'Clothing', 'Medallion', 'Body', 'Mutations']
 
