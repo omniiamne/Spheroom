@@ -758,9 +758,9 @@ p:last-child {
   color: var(--cd-rarity-cyan-txt);
 }
 
-.badge-cyan {
-  background-color: var(--cd-rarity-cyan-bg);
-  color: var(--cd-rarity-cyan-txt);
+.badge-blue {
+  background-color: var(--cd-rarity-blue-bg);
+  color: var(--cd-rarity-blue-txt);
 }
 
 .badge-default {
