@@ -69,35 +69,35 @@ body {
   /* Rarities
   ================================================================ */
 
-  --cd-rarity-Red-bg: #e63244;
-  --cd-rarity-Red-txt: #fcf4ed;
+  --cd-rarity-red-bg: #e63244;
+  --cd-rarity-red-txt: #fcf4ed;
 
-  --cd-rarity-Cyan-bg: #3eaab6;
-  --cd-rarity-Cyan-txt: var(--cd-rarity-red-txt);
+  --cd-rarity-cyan-bg: #3eaab6;
+  --cd-rarity-cyan-txt: var(--cd-rarity-red-txt);
   
-  --cd-rarity-Orange-bg: #ff6a33;
-  --cd-rarity-Orange-txt: var(--cd-rarity-red-txt);
+  --cd-rarity-orange-bg: #ff6a33;
+  --cd-rarity-orange-txt: var(--cd-rarity-red-txt);
 
-  --cd-rarity-Yellow-bg: #ffbb38;
-  --cd-rarity-Yellow-txt: var(--cd-rarity-red-txt);
+  --cd-rarity-yellow-bg: #ffbb38;
+  --cd-rarity-yellow-txt: var(--cd-rarity-red-txt);
 
-  --cd-rarity-Green-bg: #4cbb17;
-  --cd-rarity-Green-txt: var(--cd-rarity-red-txt);
+  --cd-rarity-green-bg: #4cbb17;
+  --cd-rarity-green-txt: var(--cd-rarity-red-txt);
 
-  --cd-rarity-Blue-bg: #5660e9;
-  --cd-rarity-Blue-txt: var(--cd-rarity-red-txt);
+  --cd-rarity-blue-bg: #5660e9;
+  --cd-rarity-blue-txt: var(--cd-rarity-red-txt);
 
-  --cd-rarity-Purple-bg: #b97aff;
-  --cd-rarity-Purple-txt: var(--cd-rarity-red-txt);
+  --cd-rarity-purple-bg: #b97aff;
+  --cd-rarity-purple-txt: var(--cd-rarity-red-txt);
 
-  --cd-rarity-Default-bg: #c4c4c4;
-  --cd-rarity-Default-txt: #363636;
+  --cd-rarity-default-bg: #c4c4c4;
+  --cd-rarity-default-txt: #363636;
 
-  --cd-rarity-Unknown-bg: #363636;
-  --cd-rarity-Unknown-txt: var(--cd-rarity-red-txt);
+  --cd-rarity-unknown-bg: #363636;
+  --cd-rarity-unknown-txt: var(--cd-rarity-red-txt);
 
-  --cd-rarity-Lineage-bg: #363636;
-  --cd-rarity-Lineage-txt: var(--cd-rarity-red-txt);
+  --cd-rarity-lineage-bg: #363636;
+  --cd-rarity-lineage-txt: var(--cd-rarity-red-txt);
 
 
   /* ============================================================= */
@@ -776,4 +776,9 @@ p:last-child {
 .badge-unknown {
   background-color: var(--cd-rarity-unknown-bg);
   color: var(--cd-rarity-unknown-txt);
+}
+
+.badge-purple {
+  background-color: var(--cd-rarity-purple-bg);
+  color: var(--cd-rarity-purple-txt);
 }
