@@ -331,7 +331,7 @@ charadex.page.masterlist = {
       'Design Type': charadex.sheet.options.designTypes,
       'Species': charadex.sheet.options.species,
       'Rarity': charadex.sheet.options.rarity,
-      'Status': charadex.sheet.options.status,
+      'Status': charadex.sheet.options.statuses,
     }
   },
 
