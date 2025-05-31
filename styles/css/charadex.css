@@ -69,21 +69,35 @@ body {
   /* Rarities
   ================================================================ */
 
-  --cd-rarity-common-bg: #d58353;
-  --cd-rarity-common-txt: #fcf4ed;
+  --cd-rarity-red-bg: #e63244;
+  --cd-rarity-red-txt: #fcf4ed;
 
-  --cd-rarity-uncommon-bg: #e0bb68;
-  --cd-rarity-uncommon-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-cyan-bg: #3eaab6;
+  --cd-rarity-cyan-txt: var(--cd-rarity-red-txt);
   
-  --cd-rarity-rare-bg: #97b34e;
-  --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-orange-bg: #ff6a33;
+  --cd-rarity-orange-txt: var(--cd-rarity-red-txt);
 
-  --cd-rarity-veryrare-bg: #548b71;
-  --cd-rarity-veryrare-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-yellow-bg: #ffbb38;
+  --cd-rarity-yellow-txt: var(--cd-rarity-red-txt);
 
-  /* Legendary & Mythic */
-  --cd-rarity-legendary-bg: #5a473e;
-  --cd-rarity-legendary-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-green-bg: #4cbb17;
+  --cd-rarity-green-txt: var(--cd-rarity-red-txt);
+
+  --cd-rarity-blue-bg: #5660e9;
+  --cd-rarity-blue-txt: var(--cd-rarity-red-txt);
+
+  --cd-rarity-purple-bg: #b97aff;
+  --cd-rarity-purple-txt: var(--cd-rarity-red-txt);
+
+  --cd-rarity-default-bg: #c4c4c4;
+  --cd-rarity-default-txt: #363636;
+
+  --cd-rarity-unknown-bg: #363636;
+  --cd-rarity-unknown-txt: var(--cd-rarity-red-txt);
+
+  --cd-rarity-lineage-bg: #363636;
+  --cd-rarity-lineage-txt: var(--cd-rarity-red-txt);
 
 
   /* ============================================================= */
