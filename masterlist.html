@@ -216,15 +216,17 @@
         <ul class="nav row n-gutters m-n1 py-4 px-md-5 px-4" id="profile-tabs" role="tablist">
           <li class="col p-1 nav-item" role="presentation">
             <a class="w-100 btn btn-primary active" id="profile-tab" data-toggle="tab" href="#profile" 
-            aria-controls="profile" aria-selected="true">Profile</a>
+            aria-controls="profile" aria-selected="true">Профиль</a>
           </li>
-          <li class="col p-1 nav-item" role="presentation">
-            <a class="w-100 btn btn-primary" id="logs-tab" data-toggle="tab" href="#logs" aria-controls="logs" 
-            aria-selected="false">Logs & Notes</a>
-          </li>
+          
           <li class="col p-1 nav-item" role="presentation">
             <a class="w-100 btn btn-primary" id="lineage-tab" data-toggle="tab" href="#lineage" aria-controls="lineage" 
-            aria-selected="false">Lineage</a>
+            aria-selected="false">Семейное древо</a>
+          </li>
+          
+          <li class="col p-1 nav-item" role="presentation">
+            <a class="w-100 btn btn-primary" id="logs-tab" data-toggle="tab" href="#logs" aria-controls="logs" 
+            aria-selected="false">Логи & Заметки</a>
           </li>
         </ul>
         
@@ -244,19 +246,19 @@
 
                     <!-- Item -->
                     <div class="d-flex no-gutters mb-2">
-                      <b class="text-muted col-md-5 col-6">Species</b>
+                      <b class="text-muted col-md-5 col-6">Вид</b>
                       <span class="species"></span>
                     </div>
       
                     <!-- Item -->
                     <div class="d-flex no-gutters mb-2">
-                      <b class="text-muted col-md-5 col-6">Rarity</b>
+                      <b class="text-muted col-md-5 col-6">Редкость</b>
                       <span class="rarity"></span>
                     </div>
       
                     <!-- Item -->
                     <div class="d-flex no-gutters mb-2">
-                      <b class="text-muted col-md-5 col-6">Design Type</b>
+                      <b class="text-muted col-md-5 col-6">Тип дизайна</b>
                       <span class="designtype"></span>
                     </div>
 
@@ -270,19 +272,19 @@
 
                     <!-- Item -->
                     <div class="d-flex no-gutters mb-2">
-                      <b class="text-muted col-md-5 col-6">Owner</b>
+                      <b class="text-muted col-md-5 col-6">Владелец</b>
                       <a class="owner ownerlink"></a>
                     </div>
       
                     <!-- Item -->
                     <div class="d-flex no-gutters mb-2">
-                      <b class="text-muted col-md-5 col-6">Artist</b>
+                      <b class="text-muted col-md-5 col-6">Художник</b>
                       <a class="artist artistlink"></a>
                     </div>
       
                     <!-- Item -->
                     <div class="d-flex no-gutters mb-2">
-                      <b class="text-muted col-md-5 col-6">Designer</b>
+                      <b class="text-muted col-md-5 col-6">Дизайнер</b>
                       <a class="designer designerlink"></a>
                     </div>                   
                     
@@ -295,7 +297,7 @@
 
                     <!-- Item -->
                     <div class="text-center">
-                      <b class="text-muted">Traits</b>
+                      <b class="text-muted">Черты</b>
                       <div class="px-1 cd-text-pre traits"></div>
                     </div>
 
@@ -308,7 +310,7 @@
 
 <div class="tab-pane fade" id="lineage" role="tabpanel" aria-labelledby="logs-tab" tabindex="0">
               
-            <div class="text-center"><b class="text-muted">Lineage</b></div>
+            <div class="text-center"><b class="text-muted">Семейное древо</b></div>
               <div class="card bg-faded p-4">
                 <div class="container text-center">
     <div class="row">
@@ -352,6 +354,26 @@
         </div>
     </div>
 </div>
+                <br>
+
+                <div class="text-center"><b class="text-muted">Сиблинги</b></div>
+              <div class="card bg-faded p-4">
+                Сиблинги
+                </div>
+<br>
+
+                <div class="text-center"><b class="text-muted">Дети</b></div>
+              <div class="card bg-faded p-4">
+                Дети
+                </div>
+
+                <br>
+
+                <div class="text-center"><b class="text-muted">Внуки</b></div>
+              <div class="card bg-faded p-4">
+                Внуки
+                </div>
+                
                 </div>
   </div>
 
