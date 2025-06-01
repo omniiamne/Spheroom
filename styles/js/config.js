@@ -47,7 +47,7 @@ charadex.sheet = {
     rarity: ['All', 'Default', 'Common', 'Uncommon', 'Rare', 'Lineage', 'Unknown', 'Non-rarity', 'Red', 'Orange', 'Yellow', 'Green', 'Cyan', 'Blue', 'Purple'],
     species: ['All', 'Unknown', 'NPC', 'Spheroom', 'Keeper', 'Mymuse', '1'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Usable', 'Material', 'Artifact', 'Pet'],
-    traitTypes: ['All', 'Memories', 'Membrane', 'Head', 'Clothing', 'Medallion', 'Body']
+    traitTypes: ['All', 'Memory', 'Membrane', 'Head', 'Clothing', 'Medallion', 'Body']
 
   }
 
