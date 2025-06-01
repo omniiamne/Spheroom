@@ -751,7 +751,7 @@ p:last-child {
 
 .badge-orange {
   background-color: var(--cd-rarity-orange-bg);
-  color: var(--cd-rarity-uncommon-txt);
+  color: var(--cd-rarity-orange-txt);
 }
 
 .badge-green {
