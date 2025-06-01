@@ -99,6 +99,15 @@ body {
   --cd-rarity-lineage-bg: #363636;
   --cd-rarity-lineage-txt: var(--cd-rarity-red-txt);
 
+  --cd-rarity-common-bg: #cccccc;
+  --cd-rarity-common-txt: var(--cd-rarity-red-txt);
+
+  --cd-rarity-uncommon-bg: #b7b7b7;
+  --cd-rarity-uncommon-txt: var(--cd-rarity-red-txt);
+
+  --cd-rarity-rare-bg: #999999;
+  --cd-rarity-rare-txt: var(--cd-rarity-red-txt);
+
 
   /* ============================================================= */
   /*
@@ -788,4 +797,19 @@ p:last-child {
 .badge-purple {
   background-color: var(--cd-rarity-purple-bg);
   color: var(--cd-rarity-purple-txt);
+}
+
+.badge-common {
+  background-color: var(--cd-rarity-common-bg);
+  color: var(--cd-rarity-common-txt);
+}
+
+.badge-uncommon {
+  background-color: var(--cd-rarity-uncommon-bg);
+  color: var(--cd-rarity-uncommon-txt);
+}
+
+.badge-rare {
+  background-color: var(--cd-rarity-rare-bg);
+  color: var(--cd-rarity-rare-txt);
 }
